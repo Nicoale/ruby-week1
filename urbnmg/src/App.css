@@ -54,7 +54,7 @@
 }
 
 .App-tab-list-active {
-  background-color: white;
-  border: solid #ccc;
+  background-color:#c1d8cf;
+  border: solid #c1d8cf;
   border-width: 1px 1px 0 1px;
 }
