@@ -3,7 +3,8 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import logo from "./urbn.png";
 import "./App.css";
-import Faqs from "./faq";
+import "./faq";
+import Accordion from "./faq";
 
 function App() {
   return (
@@ -31,19 +32,17 @@ function App() {
               For those who would only love to to get ready homegrown nutritious
               vegetablesof the same quality, look no further because
               <br />
-              URBN Microgreens & Plants has your back!
+              URBN Microgreens and Plants has your back!
             </h6>
           </TabPanel>
           <TabPanel>
-            <div>
-              <Faq data={data} styles={styles} config={config} />
-            </div>
-            <h6>Ask Me anything on here</h6>
+            <h6>
+              <Accordion />
+            </h6>
           </TabPanel>
           <TabPanel>
             <h3>
-              {" "}
-              <p>How may I be of help?</p>
+              How may I be of help?
               <a
                 className="App-link"
                 href="https://wa.me/25472520499"
